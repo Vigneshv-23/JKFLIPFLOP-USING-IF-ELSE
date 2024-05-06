@@ -48,6 +48,7 @@ step-6 : Run the program.
 ```
 
 **PROGRAM**
+```
 module digi1(q, qb,j,k,clock,reset);
     input j,k,clock,reset;
     output reg q, qb;
@@ -84,7 +85,7 @@ begin
             end
 end  
 endmodule
-
+```
 **RTL LOGIC FOR FLIPFLOPS**
 ![image](https://github.com/Vigneshv-23/JKFLIPFLOP-USING-IF-ELSE/assets/110780412/44c5b872-99cd-4dcf-a95b-8e0063a56661)
 
